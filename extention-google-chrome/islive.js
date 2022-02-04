@@ -1,2 +1,2 @@
 islivevar = "Il n'y a pas de live"
-document.getElementById("islive").innerHTML = islivevar;
+document.getElementById("islivetext").innerHTML = islivevar;
