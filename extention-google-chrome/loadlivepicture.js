@@ -1,4 +1,4 @@
-$.getScript(islive.js);
+import { islive } from 'https://code-it-ytb.github.io/extention-google-chrome/islive.js'
 
 if (islive == "True") {
   $("#pageContent #link img").attr("src", "https://i.ytimg.com/vi/" + islive.liveid + "/mqdefault.jpg");
