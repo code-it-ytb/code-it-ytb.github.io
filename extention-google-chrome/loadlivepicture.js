@@ -1,4 +1,4 @@
 var islive = "True"
-var livetitle = ""
+var livetitle = "PAS DE LIVE ..."
 
 document.getElementById("livetitlespan").innerHTML=livetitle;
