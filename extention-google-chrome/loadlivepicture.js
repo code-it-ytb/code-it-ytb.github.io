@@ -1,6 +1,6 @@
 $.getScript(islive.js);
 
-if (islive.islive == "True") {
+if (islive == "True") {
   $("#pageContent #link img").attr("src", "https://i.ytimg.com/vi/" + islive.liveid + "/mqdefault.jpg");
   $("#pageContent #link a").attr("href", "https://youtu.be/" + islive.liveid);
   $("#pageContent #link title").text(islive.livetitle);
